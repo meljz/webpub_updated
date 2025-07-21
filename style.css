@@ -211,23 +211,35 @@ h2 {
 
 /*video*/
 .media-item-video {
-  flex: 0 1 30%;           /* no grow, shrink allowed, 30% basis */
-  max-width: 30%;          /* ensure width stays within container */
-  box-sizing: border-box;
+  position: relative;   /* needed for absolute positioning */
   display: flex;
   justify-content: center;
   align-items: center;
   background: #f9f9f9;
   border-radius: 8px;
   overflow: hidden;
+  flex: 0 1 30%;
+  max-width: 30%;
+  height: 600px;  /* or your preferred height */
 }
 
-
-.media-item-video img {
-  width: 40%;        /* Fill the width of the parent container */
-  height: auto;       /* Maintain the image's aspect ratio */
-  object-fit: cover;  /* Crop and fill the container */
-  display: block;     /* Remove extra whitespace below the image */
+.media-item-video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid rgba(255, 255, 255, 0.8); /* white semi-transparent */
+  pointer-events: none;  /* click goes through to video */
 }
 
 .featured_page .why_section{
@@ -252,13 +264,37 @@ h2 {
   /*about page section*/
   .about_page .about_section {
     width: 70%;
-    min-height: 82vh; 
+    min-height: 10vh; 
     margin: 40px auto;
     padding: 20px;
     background: #f9f9f9;
     border-radius: 12px;
     text-align: center;
   }
+
+.about_hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto; /* center the section itself on the page */
+}
+
+.hero-text {
+  flex: 1;
+  text-align: center;
+}
+
+.about_hero_image {
+  flex: 1;
+  max-width: 20%;
+  height: auto;
+  border-radius: 10px; /* optional */
+}
+
+
   /*contact page section*/
   .contact_page .contact_section {
   width: 70%;

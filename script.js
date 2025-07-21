@@ -1,77 +1,77 @@
 
    const products = [
     {
-      name: "Food Storage Set",
+      name: "Mini Wok",
       price: "₱250.00",
-      image: "image/food_container.jpg",
-      alt: "Food Container"
+      image: "image/palengke_image_1.jpg",
+      alt: "Mini Wok"
     },
     {
-      name: "Water Jug 5L",
+      name: "Container Bucket (timba)",
       price: "₱180.00",
-      image: "image/water_jug.jpg",
-      alt: "Water Jug"
+      image: "image/palengke_image_2.jpg",
+      alt: "Container Bucket (timba)"
     },
     {
-      name: "Garbage Bin",
+      name: "Toilet Brush",
       price: "₱95.00",
-      image: "image/garbage.jpg",
-      alt: "Garbage Bin"
+      image: "image/palengke_image_3.jpg",
+      alt: "Toilet Brush"
     },
     {
-      name: "Storage Box 10L",
+      name: "Container Bucket (timba)",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_4.jpg",
+      alt: "Container Bucket (timba)"
     },
      {
-      name: "Storage Box 10L",
+      name: "Jug",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_5.jpg",
+      alt: "Jug"
     },
      {
-      name: "Storage Box 10L",
+      name: "Water Dipper",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_6.jpg",
+      alt: "Water Dipper"
     },
      {
-      name: "Storage Box 10L",
+      name: "Foot Doormat",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_7.jpg",
+      alt: "Foot Doormat"
     },
      {
-      name: "Storage Box 10L",
+      name: "Chicken Feather Brush",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_8.jpg",
+      alt: "Chicken Feather Brush"
     },
 
      {
-      name: "Storage Box 10L",
+      name: "Brush",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_9.jpg",
+      alt: "Brush"
     }, {
-      name: "Storage Box 10L",
+      name: "Whisk",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_10.jpg",
+      alt: "Whisk"
     },
 
      {
-      name: "Storage Box 10L",
+      name: "Drinking Glass",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_11.jpg",
+      alt: "Drinking Glass"
     },
      {
-      name: "Storage Box 10L",
+      name: "Kawali",
       price: "₱350.00",
-      image: "image/broom.jpg",
-      alt: "Storage Box"
+      image: "image/palengke_image_12.jpg",
+      alt: "Kawali"
     }
 
   ];
